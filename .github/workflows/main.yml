@@ -24,7 +24,7 @@ jobs:
         with:
           args: zip -qq -r ./bundle.zip ./
       - name: default deploy
-        uses: appleboy/lambda-action@master
+        uses: appleboy/lambda-action@main
         with:
           aws_access_key_id: ${{ secrets.AKIATPPWWN5FXPVKWS72 }}
           aws_secret_access_key: ${{ secrets.DiRgpSZ0svvxF/lAV9Mwe8KRXBhUunPlRSI+yV8u }}
